@@ -8,22 +8,22 @@
 
 @theme {
   /* Light Mode */
-  --color-background: #ffffff;          /* Background utama: putih */
-  --color-text: #24292e;               /* Teks utama: abu tua */
-  --color-secondary-text: #6a737d;     /* Teks sekunder: abu sedang */
-  --color-link: #0366d6;              /* Link: biru klasik */
-  --color-button: #2ea44f;            /* Tombol: hijau */
-  --color-border: #e1e4e8;            /* Border: abu muda */
-  --color-header: #f6f8fa;            /* Header/Navbar: abu sangat muda */
-  --color-hover: #e1e4e8;             /* Hover: abu muda */
+  --color-bg-light: #ffffff;
+  --color-txt-light: #24292e;
+  --color-txt2-light: #6a737d;
+  --color-link-light: #0366d6;
+  --color-btn-light: #2ea44f;
+  --color-border-light: #e1e4e8;
+  --color-nav-light: #f6f8fa;
+  --color-hover-light: #e1e4e8;
 
   /* Dark Mode */
-  --color-dark-background: #0d1117;    /* Background utama: hitam tua */
-  --color-dark-text: #c9d1d9;          /* Teks utama: abu terang */
-  --color-dark-secondary-text: #8b949e; /* Teks sekunder: abu sedang */
-  --color-dark-link: #58a6ff;         /* Link: biru terang */
-  --color-dark-button: #238636;       /* Tombol: hijau tua */
-  --color-dark-border: #30363d;       /* Border: abu gelap */
-  --color-dark-header: #161b22;       /* Header/Navbar: hitam muda */
-  --color-dark-hover: #21262d;        /* Hover: abu gelap */
+  --color-bg-dark: #0d1117;
+  --color-txt-dark: #c9d1d9;
+  --color-txt2-dark: #8b949e;
+  --color-link-dark: #58a6ff;
+  --color-btn-dark: #238636;
+  --color-border-dark: #30363d;
+  --color-nav-dark: #161b22;
+  --color-hover-dark: #21262d;
 }
