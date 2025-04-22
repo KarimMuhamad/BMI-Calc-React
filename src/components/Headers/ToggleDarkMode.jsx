@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { useDarkMode } from "../../Context/ThemeContext";
+import { useDarkMode } from "../../context/ThemeContext";
 
 const ToggleDarkMode = () => {
    const {darkMode, setDarkMode} = useDarkMode();
