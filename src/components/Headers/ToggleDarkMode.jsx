@@ -14,7 +14,7 @@ const ToggleDarkMode = () => {
    return (
       <motion.button
         whileTap={{scale: 0.8}}
-        onClick={handleToggle} className="px-3 py-1 rounded-md border-1 cursor-pointer hover:bg-gray-300 border-gray-700/50 bg-gray-100/30 shadow-black/30 shadow-xs dark:hover:bg-gray-500 dark:bg-gray-500/20 dark:border-gray-500/40">
+        onClick={handleToggle} className="px-3 py-1 rounded-md border-1 cursor-pointer backdrop-blur-md hover:bg-gray-300 border-gray-700/50 bg-gray-100/30 shadow-black/30 shadow-xs dark:hover:bg-gray-500 dark:bg-gray-500/20 dark:border-gray-500/40">
          {darkMode ? <motion.i
            key="moon"
            initial="sun"

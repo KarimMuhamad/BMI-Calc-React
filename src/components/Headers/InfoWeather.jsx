@@ -21,7 +21,7 @@ const InfoWeather = () => {
    }, []);
 
    return (
-      <div className="flex justify-center items-center h-auto w-auto px-3 py-1 rounded-md border-1 border-gray-700/50 bg-gray-100/30 shadow-black/30 shadow-xs dark:bg-gray-500/20 dark:border-gray-500/40">
+      <div className="flex justify-center items-center h-auto w-auto px-3 py-1 rounded-md border-1 backdrop-blur-md border-gray-700/50 bg-gray-100/30 shadow-black/30 shadow-xs dark:bg-gray-500/20 dark:border-gray-500/40">
          {weather ? (
             <>
                <img src={weather.current.condition.icon} className="h-6 w-6 mr-1" />

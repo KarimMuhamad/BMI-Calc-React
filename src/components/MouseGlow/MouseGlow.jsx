@@ -16,18 +16,17 @@ const MouseGlow = () => {
    }, [])
 
    return (
-      <motion.div className='fixed pointer-events-none rounded-full blur-3xl'
+      <motion.div className='fixed pointer-events-none rounded-full blur-3xl bg-gradient-to-r from-pink-500 to-yellow-500 opacity-50'
       style={{
-         width: "300px",
-         height: "300px",
-         background: "radial-gradient(circle, rgba(0,255,255,0.8) 0%, rgba(138,43,226,0.2) 70%, transparent 100%)",
+         width: "200px",
+         height: "200px",
          zIndex: -1,
       }}
 
       animate={{
-         x: position.x - 150,
-         y: position.y - 150,
-         transition: { type: "spring", damping: 10, stiffness: 100 },
+         x: position.x - 100,
+         y: position.y - 100,
+         // transition: { type: "spring", damping: 10, stiffness: 100 },
        }}
       >
 
