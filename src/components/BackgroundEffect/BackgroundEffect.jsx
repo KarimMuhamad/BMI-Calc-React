@@ -7,7 +7,7 @@ const BackgroundEffect = () => {
   useEffect(() => {
     const generateShapes = () => {
       const newShapes = [];
-      const shapeTypes = ["circle", "square", "triangle"];
+      const shapeTypes = ["circle", "square"];
       const colors = [
         'rgba(77,238,234, 0.7)',
         'rgba(116,238,21, 0.7)',
@@ -60,7 +60,7 @@ const BackgroundEffect = () => {
             height: `${shape.size}px`,
             backgroundColor: shape.color,
             borderRadius: shape.type === 'circle' ? '50%' : '0',
-            clipPath: shape.type === 'triangle' ? 'polygon(50% 0%, 0% 100%, 100% 100%)' : 'none',
+            // clipPath: shape.type === 'triangle' ? 'polygon(50% 0%, 0% 100%, 100% 100%)' : 'none',
             zIndex: -10,
             filter: 'blur(1px)',
             boxShadow: `0 0 10px ${shape.color}, 0 0 20px ${shape.color}`,
